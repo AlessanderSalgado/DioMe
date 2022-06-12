@@ -29,8 +29,9 @@ function Panel({ updateAt, onChange, data, country, getCoviddata }) {
     navigator.share({
       title: `Dados do Covid19 - ${country}`,
       text: textCovid19,
-      url: 'http://localhost:3000/'
+      //url: 'http://localhost:3000/'
       //url: 'https://covid19dio.netlify.app/'
+      url: 'https://alessandersalgado.github.io/map-covid-19-mundo/'
     })
   }
 
