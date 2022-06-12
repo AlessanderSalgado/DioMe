@@ -4,7 +4,6 @@ import COUNTRIES from '../../../commons/constants/countries'
 import { CardPanelContentStyled, ItemStyled } from './style'
 
 const navigatorHasShare = navigator.share
-
 function Panel({ updateAt, onChange, data, country, getCoviddata }) {
   // eslint-disable-next-line
   const { cases, recovered, deaths, todayCases, todayDeaths } = data
